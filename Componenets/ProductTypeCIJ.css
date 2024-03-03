@@ -1,0 +1,159 @@
+.product-type-cij-container {
+  text-align: left;
+  padding: 20px;
+}
+/* .product-type-cij-container h2 {
+  width: 250px;
+    background-color: #9808f7;
+    margin-top: -25px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 10px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    color: #ffffff;
+    box-shadow: 10 12px 14px rgba(4, 5, 9, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    font-weight: bold;
+    text-decoration: underline;
+} */
+
+.model-container {
+  margin-bottom: 10px;
+}
+
+.model-content {
+  display: flex;
+  align-items: center;
+}
+
+.plus-sign,
+.plus-sign-submodel,
+.plus-sign-content,
+.plus-sign-section,
+.plus-sign-subsection {
+  font-size: 24px; /* You can adjust the font size to your preference */
+  margin-right: 8px; /* Optional: Add margin for spacing */
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.plus-sign :hover,
+.plus-sign-submodel:hover,
+.plus-sign-content :hover,
+.plus-sign-section:hover,
+.plus-sign-subsection:hover {
+  
+  font-size:25px;
+  font-weight:bolder;
+  
+  
+  
+}
+
+.model-text {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.submodel-dropdown,
+.content-dropdown,
+.subsection-dropdown { /* Added subsection-dropdown */
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.submodel-dropdown div,
+.content-dropdown div,
+.subsection-dropdown div { /* Added subsection-dropdown div */
+  cursor: pointer;
+  margin-top: 5px;
+  display: block; /* Change from 'flex' to 'block' */
+  transition: background-color 0.3s;
+}
+
+.submodel-dropdown div:hover,
+.content-dropdown div:hover,
+.subsection-dropdown div:hover { /* Added subsection-dropdown div:hover */
+  background-color: #f5f5f5;
+}
+
+.plus-sign-content {
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.section-dropdown ,
+.subsection-dropdown {
+  cursor: pointer;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s;
+  margin-left: 40px;
+}
+
+.section-dropdown div:hover {
+  background-color: #f5f5f5;
+}
+
+.subsection-dropdown div:hover { /* Added subsection-dropdown div:hover */
+  background-color: #f5f5f5;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-right: 30px;
+}
+
+.product-types-cij-container {
+  position: relative;
+}
+
+.pdf-viewer-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 80px;
+  margin-right: 20px; 
+}
+
+.pdf-not-prepared {
+    position: absolute;
+    top: 50px;
+    right: 616px;
+    font-size: 25px;
+    margin-top: 84px;
+    margin-right: 20px;
+}
+
+.pdf-iframe{
+ width:75%;
+}
+
+/* @media (max-width: 991px) {
+  .pdf-viewer-container {
+    width:75%;
+  }
+}
+@media (min-width: 992px) {
+  .pdf-viewer-container, {
+    width:100%;
+  }
+}
+@media (max-width: 991px) {
+  .pdf-iframe {
+    width:50%;
+  }
+}
+@media (min-width: 992px) {
+  .pdf-iframe {
+    width:150%;
+  }
+} */
